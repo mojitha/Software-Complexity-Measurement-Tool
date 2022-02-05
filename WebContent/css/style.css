@@ -1,0 +1,18 @@
+:root {
+	--primaryLight: #f2f2f2;
+}
+
+body {
+	background-color: var(--primaryLight);
+}
+
+input[type="file"] {
+	background-color: black;
+	display: inline-block;
+	opacity: 3;
+}
+
+input[type="file"]:focus,
+input[type="file"]{
+	background-color: #f2f2f2;
+}
